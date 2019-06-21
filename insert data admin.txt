@@ -1,0 +1,16 @@
+Untuk memasukan data
+
+PS C:\xampp\htdocs\laravel> php artisan tinker
+Psy Shell v0.9.9 (PHP 7.2.12 — cli) by Justin Hileman
+>>> $user = new\App\User;
+=> App\User {#2935}
+>>> $user->name="Admin"
+=> "Admin"
+>>> $user->email="admin@gmail.com"
+=> "admin@gmail.com"
+>>> $user->password=bcrypt('admin')
+=> "$2y$10$dC1dOG6RF9qhTWrIz5tkUe2rveDFITjNqcv6jYW/hO61R6wdr98UC"
+>>> $user->remember_token=str_random(60)
+=> "LkRQkk01OhxHpgph1lU40mMOrPp9fb5nKHX59aMCCPTTyfx2im1sPGNQ96N5"
+>>> $user->save()
+=> true
