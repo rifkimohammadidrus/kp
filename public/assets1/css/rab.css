@@ -1,0 +1,14 @@
+.container {
+    margin-top: 40px;
+}
+
+.kode_pos {
+    margin-left: 20px;
+}
+
+.cari {
+    margin-bottom: 20px;
+    float: right;
+    color: green;
+    padding-left: 45px;
+}

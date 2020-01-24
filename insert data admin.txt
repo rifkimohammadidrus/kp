@@ -1,0 +1,16 @@
+Untuk memasukan data
+
+
+php artisan tinker
+
+$user = new\App\User;
+
+$user->name="Admin"
+
+$user->email="admin@gmail.com"
+
+$user->password=bcrypt('admin')
+
+$user->remember_token=str_random(60)
+
+$user->save()

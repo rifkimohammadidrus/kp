@@ -1,0 +1,11 @@
+.body2 {
+    background-image: url("/assets1/amik-login1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0.5;
+}
+
+div.page-break {
+    page-break-after: always;
+}
